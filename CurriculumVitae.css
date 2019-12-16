@@ -1,0 +1,105 @@
+@font-face {
+	font-family: '1942_report1942_report';
+	src: url('Font/1942-webfont.eot');
+	src: url('Font/1942-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('Font/1942-webfont.woff2') format('woff2'),
+		 url('Font/1942-webfont.woff') format('woff'),
+		 url('Font/1942-webfont.ttf') format('truetype'),
+		 url('Font/1942-webfont.svg#1942_report1942_report') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	text-align: center;
+}
+
+.description {
+	text-align: center;
+	font-family: '1942_report1942_report', serif;
+}
+
+h2 {
+	color: red;
+	text-shadow: 5px 5px 5px gray;
+}
+
+body {
+	background-image: url("Image/Background.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: top left;
+}
+
+img {
+	border-style: solid;
+	border-color: black;
+	box-shadow: 5px 5px 5px black;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.profil {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+
+.global {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+aside {
+	background-color: gray;
+	border-radius: 10px;
+	flex: 1;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	flex: 15;
+	margin: auto;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+article {
+	width: 30%;
+}
+
+@media all and (max-width: 1024px) {
+	aside {
+		display: none;
+	}
+
+	section {
+		flex-direction: column;
+	}
+
+	article {
+		width: 100%;
+	}
+}
