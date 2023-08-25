@@ -51,7 +51,7 @@
 						<li><a href="index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
 						<li><a href="index.html#skills" class="nav-link scrollto"><i class="bx bx-target-lock"></i> <span>Skills</span></a></li>
 						<li><a href="index.html#languages" class="nav-link scrollto"><i class="bx bx-flag"></i> <span>Languages</span></a></li>
-						<!-- <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li> -->
+						<li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
 						<!-- <li><a href="index.html#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
 						<li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
 					</ul>
@@ -65,10 +65,10 @@
 			<section id="breadcrumbs" class="breadcrumbs">
 				<div class="container">
 					<div class="d-flex justify-content-between align-items-center">
-						<h2>Portfoio Details</h2>
+						<h2>Portfolio Details</h2>
 						<ol>
 							<li><a href="index.html">Home</a></li>
-							<li>Portfoio Details</li>
+							<li>Portfolio Details</li>
 						</ol>
 					</div>
 				</div>
@@ -86,6 +86,18 @@
 										<img src="assets/img/portfolio/go.png" alt="">
 									</div>
 									<div class="swiper-slide">
+										<img src="assets/img/portfolio/go-1.png" alt="">
+									</div>
+									<div class="swiper-slide">
+										<img src="assets/img/portfolio/go-2.png" alt="">
+									</div>
+									<div class="swiper-slide">
+										<video autoplay muted loop width="100%" height="100%">
+											<source src="assets/video/go.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+									<div class="swiper-slide">
 										<img src="assets/img/portfolio/options-go.png" alt="">
 									</div>
 								</div>
@@ -99,8 +111,7 @@
 									<li><strong>Category</strong>: Game</li>
 									<li><strong>Client</strong>: IUT Sénart</li>
 									<li><strong>Project date</strong>: March 2018 - June 2018</li>
-									<li><strong>Project URL</strong>: <a href="https://github.com/Sevla8/Go/blob/master/projetJeuDeGo.pdf" target="_blank">https://github.com/Sevla8/Go/blob/master/projetJeuDeGo.pdf</a></li>
-									<li><strong>Repository URL</strong>: <a href="https://github.com/Sevla8/Go" target="_blank">https://github.com/Sevla8/Go</a></li>
+									<li><strong>Project URL</strong>: <a href="https://github.com/Sevla8/Go" target="_blank">https://github.com/Sevla8/Go</a></li>
 								</ul>
 							</div>
 						</div>
@@ -111,25 +122,17 @@
 								</h2>
 								<div>
 									<p>
-										I played a role in the project by focusing on the image embeddings and optimizing their performance.
-										My contributions include:
+										I developed a Go game in Java as part of a university project. The game was developed using the MVC design pattern and the Swing GUI toolkit. The game features a graphical user interface, an undo/redo system, a scoring system and a timer.
+										I used the following design patterns:
 									</p>
 									<ul>
-										<li><strong>Image Embeddings and Loss Functions</strong>: I was responsible for implementing image embeddings using the ArcFace loss function. ArcFace is an advanced loss function designed for face recognition tasks that aims to enhance the discriminative power of embeddings by adding an angular margin to the cosine similarity calculation.</li>
-										<li><strong>Training and Fine-Tuning</strong>: I dedicated efforts to training and fine-tuning the image embeddings with the ArcFace loss. This involved experimenting with various hyperparameters, model architectures (ResNet-18 and DenseNet-121), and training settings to achieve the best possible performance.</li>
-										<li><strong>Results Analysis</strong>: After training the models, I conducted thorough analysis of the results. This included evaluating the F1 scores on both the training and validation sets. The ArcFace loss for image embeddings achieved high F1 scores on the training set, indicating that I was able to effectively learn the training data. However, I also examined the performance on the validation set, where the F1 score was slightly lower. This discrepancy could indicate potential overfitting or challenges in generalizing to unseen data.</li>
-										<li><strong>Exploratory Data Analysis</strong>: I contributed to the exploratory data analysis, which involved gaining insights from the dataset to better understand its characteristics. This analysis informed decisions about data preprocessing, model selection, and hyperparameter tuning.</li>
-										<li><strong>Collaboration and Teamwork</strong>: Throughout the project, I collaborated with my team members to ensure a holistic approach. We discussed strategies, shared insights, and collaborated on the overall project structure.</li>
+										<li><strong>Model-View-Controller</strong>: The MVC design pattern was used to separate the game's data (model), user interface (view) and logic (controller). This separation of concerns allowed for a more modular and maintainable design.</li>
+										<li><strong>Command</strong>: The command design pattern was used to implement the undo/redo system. This pattern allowed for the encapsulation of actions performed by the user, which could then be undone or redone.</li>
+										<li><strong>Observer</strong>: The observer design pattern was used to implement the scoring system. This pattern allowed for the separation of the scoring system's logic from the game's logic.</li>
 									</ul>
 									<h5>Results Obtained</h5>
 									<p>
-										The ArcFace loss for image embeddings achieved impressive F1 scores, particularly on the training set, indicating that I learned the training data well. However, the F1 scores on the validation set were slightly lower, suggesting potential overfitting or challenges in generalizing to new data. These results highlighted the importance of addressing overfitting and improving the model's generalization capabilities.
-									</p>
-									<p>
-										My dedication to exploring advanced loss functions and optimizing image embeddings contributed significantly to the project's success. The insights gained from my analysis provided valuable guidance for further improving the model's performance and addressing potential limitations.
-									</p>
-									<p>
-										By effectively integrating image embeddings with the ArcFace loss, I helped create a strong foundation for the project's image-based duplicate product detection capabilities.
+										I implemented a complete Go game in Java for two players.
 									</p>
 								</div>
 							</div>
